@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4FC865AF21A01119004B55C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC865AE21A01119004B55C9 /* AppDelegate.swift */; };
-		4FC865B121A01119004B55C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC865B021A01119004B55C9 /* ViewController.swift */; };
 		4FC865B421A01119004B55C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC865B221A01119004B55C9 /* Main.storyboard */; };
 		4FC865B621A0111A004B55C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC865B521A0111A004B55C9 /* Assets.xcassets */; };
 		4FC865B921A0111A004B55C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC865B721A0111A004B55C9 /* LaunchScreen.storyboard */; };
 		4FC865C421A0111B004B55C9 /* HomeWork___Swift___31___32__UITableView_Editing_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC865C321A0111B004B55C9 /* HomeWork___Swift___31___32__UITableView_Editing_Tests.swift */; };
 		4FC865CF21A0111B004B55C9 /* HomeWork___Swift___31___32__UITableView_Editing_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC865CE21A0111B004B55C9 /* HomeWork___Swift___31___32__UITableView_Editing_UITests.swift */; };
+		4FC865DD21A0115E004B55C9 /* OBNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC865DC21A0115E004B55C9 /* OBNewViewController.swift */; };
+		4FC865DF21A01340004B55C9 /* OBStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC865DE21A01340004B55C9 /* OBStudent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		4FC865AB21A01119004B55C9 /* HomeWork - Swift - 31 - 32. UITableView Editing..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork - Swift - 31 - 32. UITableView Editing..app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC865AE21A01119004B55C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FC865B021A01119004B55C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FC865B321A01119004B55C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FC865B521A0111A004B55C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC865B821A0111A004B55C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		4FC865CA21A0111B004B55C9 /* HomeWork - Swift - 31 - 32. UITableView Editing.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HomeWork - Swift - 31 - 32. UITableView Editing.UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC865CE21A0111B004B55C9 /* HomeWork___Swift___31___32__UITableView_Editing_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeWork___Swift___31___32__UITableView_Editing_UITests.swift"; sourceTree = "<group>"; };
 		4FC865D021A0111B004B55C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC865DC21A0115E004B55C9 /* OBNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBNewViewController.swift; sourceTree = "<group>"; };
+		4FC865DE21A01340004B55C9 /* OBStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBStudent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		4FC865AD21A01119004B55C9 /* HomeWork - Swift - 31 - 32. UITableView Editing. */ = {
 			isa = PBXGroup;
 			children = (
+				4FC865E221A01357004B55C9 /* Students Classes */,
+				4FC865DC21A0115E004B55C9 /* OBNewViewController.swift */,
 				4FC865AE21A01119004B55C9 /* AppDelegate.swift */,
-				4FC865B021A01119004B55C9 /* ViewController.swift */,
 				4FC865B221A01119004B55C9 /* Main.storyboard */,
 				4FC865B521A0111A004B55C9 /* Assets.xcassets */,
 				4FC865B721A0111A004B55C9 /* LaunchScreen.storyboard */,
@@ -123,6 +126,14 @@
 				4FC865D021A0111B004B55C9 /* Info.plist */,
 			);
 			path = "HomeWork - Swift - 31 - 32. UITableView Editing.UITests";
+			sourceTree = "<group>";
+		};
+		4FC865E221A01357004B55C9 /* Students Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4FC865DE21A01340004B55C9 /* OBStudent.swift */,
+			);
+			path = "Students Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC865B121A01119004B55C9 /* ViewController.swift in Sources */,
+				4FC865DD21A0115E004B55C9 /* OBNewViewController.swift in Sources */,
 				4FC865AF21A01119004B55C9 /* AppDelegate.swift in Sources */,
+				4FC865DF21A01340004B55C9 /* OBStudent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
